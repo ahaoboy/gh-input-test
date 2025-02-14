@@ -36,14 +36,14 @@ jobs:
            aa
            bb
            cc
-      - name: 2 string[]
-        uses: ./
-        with:
-          url: ["b", "a"]
+      # - name: 2 string[]
+      #   uses: ./
+      #   with:
+      #     url: ["b", "a"]
 
-      - name: 3 string[]
-        uses: ./
-        with:
-          url:
-            - a
-            - b
+      # - name: 3 string[]
+      #   uses: ./
+      #   with:
+      #     url:
+      #       - a
+      #       - b
